@@ -1,10 +1,8 @@
 import { defineConfig } from "vitepress";
 	export default defineConfig({
   "title": "CNAPI",
-  "keywords": "CNAPI,API KEY,OPENAI,中转ChatGPT,Midjourney,API中转",// 网站关键字
-  "description": "CNAPI、高效的 Open AI、Midjourney API 接口供应商、我们致力于提供优质的API接入服务，让您可以轻松集成先进的AI模型至您的产品和服务。通过API综合管理平台，无缝整合OpenAl最尖端的人工智能模型。借助我们可靠且易于使用的API解决方案，升级您的产品与服务",// 网站描述
-  
-
+  "keywords": "CNAPI,API KEY,OPENAI,中转ChatGPT,Midjourney,API中转",
+  "description": "CNAPI、高效的 Open AI、Midjourney API 接口供应商、我们致力于提供优质的API接入服务，让您可以轻松集成先进的AI模型至您的产品和服务。通过API综合管理平台，无缝整合OpenAl最尖端的人工智能模型。借助我们可靠且易于使用的API解决方案，升级您的产品与服务",
   "themeConfig": {
     "siteTitle": false,
     "logo": "https://payphp.oss-cn-shenzhen.aliyuncs.com/CNAPI.svg",
@@ -43,39 +41,124 @@ import { defineConfig } from "vitepress";
         "link": "https://api.cnai.art"
       }
     ],
-
-    "sidebar": [  // 侧边栏配置
+    "sidebar": [
       {
         "text": "🖥️帮助中心",
-        "collapsed": false,
+        collapsed: false, // 是否默认展开
         "items": [
           {
-            "text": "🎉系统介绍",
-            "link": "/global/index"
+            "text": "✅ 快速接入",
+            "link": "/api/index"
           },
           {
-            "text": "🏅源码授权",
-            "link": "/global/shop"
+            "text": "😊 服务定价",
+            "link": "/api/shop"
+          },
+          {
+            "text": "😍 获取apiKey",
+            "link": ""
+          },
+          {
+            "text": "😊 常见问题",
+            "link": ""
+          },
+          {
+            "text": "🚀 直接使用",
+            "link": ""
+          },
+          {
+            "text": "🔨 应用部署",
+            "link": ""
+          },
+          {
+            "text": "😊 画图 dall-e-3模型",
+            "link": ""
+          },
+          {
+            "text": "😊 gpt-4-vision-preview 模型",
+            "link": ""
+          },
+          {
+            "text": "😊 GPTs 多模态",
+            "link": ""
+          },
+          {
+            "text": "😊 whisper tts 语音模型",
+            "link": ""
+          },
+          {
+            "text": "😊 Assistants API",
+            "link": ""
           }
         ]
       },
       {
-        "text": "📖文档",
-        "collapsed": false,
+        "text": "🎨midjourney",
+        collapsed: false,
         "items": [
           {
-            "text": "✨环境需求",
-            "link": "/global/runtime"
+            "text": "✅ Midjourney接入",
+            "link": ""
           },
           {
-            "text": "🎨宝塔安装",
-            "link": "/global/Setup"
+            "text": "😊 任务API",
+            "link": ""
+          },
+          {
+            "text": "😊 应用部署",
+            "link": ""
+          },
+          {
+            "text": "🚀 直接使用",
+            "link": ""
+          }
+        ]
+      },
+      {
+        "text": "📖其他or",
+        collapsed: false,
+        "items": [
+          {
+            "text": "😊 claude-3 ",
+            "link": ""
+          },
+          {
+            "text": "🎧 音乐模型 suno",
+            "link": ""
+          },
+          {
+            "text": "🎬 视频模型 luma",
+            "link": ""
+          },
+          {
+            "text": "🎬 视频模型 runway",
+            "link": ""
+          },
+          {
+            "text": "🎬 视频模型 kling可灵",
+            "link": ""
+          },
+          {
+            "text": "💃🏻 舞蹈模型 viggle",
+            "link": ""
+          },
+          {
+            "text": "🖼 绘图模型 ideogram",
+            "link": ""
+          },
+          {
+            "text": "🖼 绘图模型 flux",
+            "link": ""
+          },
+          {
+            "text": "😊 免费公益接口",
+            "link": ""
           }
         ]
       },
       {
         "text": "🍵友情连接",
-        "collapsed": false,
+        collapsed: false,
         "items": [
           {
             "text": "📫枭格科技",
