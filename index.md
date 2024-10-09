@@ -24,12 +24,12 @@ hero:
       link: https://api.cnai.art
 
     - theme: alt
-      text: 进入控制台>>
-      link: https://api.cnai.art
+      text: AIGC系统
+      link: https://doc.cnai.art
 
-#    - theme: alt
-#      text: 商户中心
-#      link: https://www.payphp.cn/User/Home/Index
+    - theme: alt
+      text: 进入控制台>>
+      link: https://api.cnai.art/
 
       
 
