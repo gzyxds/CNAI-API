@@ -38,7 +38,7 @@ import { defineConfig } from "vitepress";
       },
       {
         "text": "🎉️帮助中心",
-        "link": "https://api.cnai.art"
+        "link": "/api/help"
       }
     ],
     "sidebar": [
