@@ -36,7 +36,7 @@ import { defineConfig } from "vitepress";
       },
       {
         "text": "💬在线体验",
-        "link": "https://qm.qq.com/q/l8HDomqX4I"
+        "link": "https://api.cnai.art/playground"
       },
       {
         "text": "🎉️帮助中心",
