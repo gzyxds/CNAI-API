@@ -136,6 +136,6 @@ features:
 :::
 
 
-::: danger Payphp支付系统
+::: danger CNAPI
  [点我跳转：立即使用](https://api.cnaiart)
  :::
