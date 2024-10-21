@@ -4,7 +4,7 @@ layout: home
 
  
 hero:     
-  name: "CNAPI"
+  name: "CNAI-API"
   text: "低成本构建AI应用"
   tagline: 无需代理服务器、低成本访问各种AI接口，其中包括OpenAI、Claude、Luma、Suno、Genmin、百度千帆、阿里千问、智谱AI、DeepSpeek、讯飞星火等AI模型
 
@@ -16,7 +16,7 @@ hero:
     
   actions:
     - theme: brand
-      text: GPT接入
+      text: OpenApi接入
       link: https://api.cnai.art
 
     - theme: brand
@@ -32,7 +32,6 @@ hero:
       link: https://api.cnai.art/
 
       
-
 
 features:
   - title: ✅便利
@@ -106,6 +105,30 @@ features:
     link: https://api.cnai.art
     # linkText: 👉立即接入
     # linkTarget: https://api.cnai.art
+
+  - title: 🚀 快速集成
+    details: 提供多种编程语言的SDK和详细文档，帮助开发者快速集成AI功能到自己的应用中。
+    link: https://api.cnai.art
+
+  - title: 🔒 数据隐私保护
+    details: 采用先进的加密技术和严格的数据处理流程，确保用户数据的安全性和隐私性。
+    link: https://api.cnai.art
+
+  - title: 💡 创新应用支持
+    details: 为创新型AI应用提供技术支持和资源，助力开发者实现创意并推动AI技术的发展。
+    link: https://api.cnai.art
+
+  - title: 🌐 多语言支持
+    details: 支持多种语言接口，满足全球用户的需求，助力AI应用的国际化发展。
+    link: https://api.cnai.art
+
+  - title: 📊 实时监控
+    details: 提供详细的API调用统计和性能监控，帮助用户优化应用性能和资源使用。
+    link: https://api.cnai.art
+
+  - title: 🔄 持续更新
+    details: 定期更新和优化API功能，确保用户始终能够使用最新、最强大的AI技术。
+    link: https://api.cnai.art
 ---
 
 ::: danger 计费采用积分消耗制，最低10元起充 无时间限制

@@ -1,8 +1,8 @@
 import { defineConfig } from "vitepress";
 	export default defineConfig({
-  "title": "CNAPI",
-  "keywords": "CNAPI,API KEY,OPENAI,中转ChatGPT,Midjourney,API中转",
-  "description": "CNAPI、高效的 Open AI、Midjourney API 接口供应商、我们致力于提供优质的API接入服务，让您可以轻松集成先进的AI模型至您的产品和服务。通过API综合管理平台，无缝整合OpenAl最尖端的人工智能模型。借助我们可靠且易于使用的API解决方案，升级您的产品与服务",
+  "title": "CNAI-API",
+  "keywords": "CNAI-API,OpenAI,Openkey,API中转,OpenAI接入,apikey,chatgptapikey,midjourney接口",
+  "description": "CNAI-API汇集全球顶级品牌的OpenAI超市、Apikey中转服务、提供专业的聊天机器人、GPTs应用和绘画机器人服务。无需月费，按需付费制度让技术爱好者、小型企业、学校及个人用户轻松享受真正的AI内核驱动体验。零门槛操作、一键生成与分享、国内直连快速访问、本地数据存储确保隐私安全。加入302.AI，享受来自全球各大AI模型，体验AI技术的无限可能，开启AI探索之旅。",
   "themeConfig": {
     "siteTitle": false,
     "logo": "https://payphp.oss-cn-shenzhen.aliyuncs.com/CNAPI.svg",
@@ -301,7 +301,7 @@ import { defineConfig } from "vitepress";
   },
   "locales": {},
   "cacheDir": "./.vitepress/cache",
-  "titleTemplate": " API KEY|OPENAI|中转ChatGPT|Midjourney|API中转|",
+  "titleTemplate": "汇集全球顶级品牌的大模型API接口，零月费，按需付费，全面开放",
   "lang": "en-US",
   "base": "/",
   "outDir": "./.vitepress/dist",
