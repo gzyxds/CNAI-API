@@ -31,22 +31,11 @@ CNAI-API是行业领先的AI资源服务提供商，为您带来全球顶级品�
 
 🤝 携手CNAI-API，让AI赋能您的产品，引领未来！
 
-# CNAI-API 官网
+## 🌐 CNAI-API官网
 
-欢迎访问 CNAI-API 官网：https://api.cnai.art
+访问我们的官方网站：[https://api.cnai.art](https://api.cnai.art)
 
-## 技术栈
+## 🛠️ 技术栈
 
-我们的官网采用 VitePress 构建,这是一个基于 Vue 的静态网站生成器。
+我们的网站采用 VitePress 搭建，为您提供流畅的浏览体验。
 
-## 安装指南
-
-### 前置条件
-
-- Node.js 18 或更高版本
-- 命令行界面 (CLI) 
-- Markdown 编辑器 (推荐 VSCode 及其官方 Vue 扩展)
-
-### 安装步骤
-
-1. 安装 VitePress:
