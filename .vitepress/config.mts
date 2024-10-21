@@ -1,8 +1,8 @@
 import { defineConfig } from "vitepress";
 	export default defineConfig({
   "title": "CNAI-API",
-  "keywords": "CNAI-API,OpenAI,Openkey,API中转,OpenAI接入,apikey,chatgptapikey,midjourney接口",
-  "description": "CNAI-API汇集全球顶级品牌的OpenAI超市、Apikey中转服务、提供专业的聊天机器人、GPTs应用和绘画机器人服务。无需月费，按需付费制度让技术爱好者、小型企业、学校及个人用户轻松享受真正的AI内核驱动体验。零门槛操作、一键生成与分享、国内直连快速访问、本地数据存储确保隐私安全。加入302.AI，享受来自全球各大AI模型，体验AI技术的无限可能，开启AI探索之旅。",
+  "keywords": "CNAIAPI,OpenAI,Openkey,API中转,OpenAI接入,apikey,chatgptapikey,midjourney接口,Stable Diffusion,Suno,Luma,DALL-E,Runway,Kling,Viggle,Ideogram,Flex",
+  "description": "CNAI-API行业领先的AI资源服务提供商，汇集OpenAI, Claude, MidJourney, Suno, Luma ，DALL-E，CLIP，MidJourney，Stable Diffusion 等全球顶级品牌的先进API接口。提供零月费、按需付费的灵活计费模式，让技术爱好者、小型企业、学校和个人用户都能轻松享受高质量的人工智能服务。无论是聊天机器人、绘图机器人还是高效语音转换与精确文字识别，加入CNAI-API，带来的无限可能，探索并集成最前沿的技术到您的产品中，共同推动创新与发展，为客户创造更多价值。",
   "themeConfig": {
     "siteTitle": false,
     "logo": "https://payphp.oss-cn-shenzhen.aliyuncs.com/CNAPI.svg",
@@ -301,7 +301,7 @@ import { defineConfig } from "vitepress";
   },
   "locales": {},
   "cacheDir": "./.vitepress/cache",
-  "titleTemplate": "汇集全球顶级品牌的大模型API接口，零月费，按需付费，全面开放",
+  "titleTemplate": "行业领先的AI资源服务提供商, 汇集全球顶级大模型API接口",
   "lang": "en-US",
   "base": "/",
   "outDir": "./.vitepress/dist",
