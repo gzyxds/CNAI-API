@@ -4,7 +4,7 @@ layout: home
 
  
 hero:     
-  name: "CNAI-API"
+  name: "CNAIAPI"
   text: "汇集全球顶级大模型API接口"
   tagline: 无需代理服务器、低成本访问各种AI接口，其中包括OpenAI、Claude、Luma、Suno、Genmin、百度千帆、阿里千问、智谱AI、DeepSpeek、讯飞星火等AI模型
 
