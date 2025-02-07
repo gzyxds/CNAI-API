@@ -2,14 +2,14 @@
   "name": "cnai-api",
   "version": "1.0.0",
   "scripts": {
-    "docs:dev": "vitepress dev docs", // 启动开发服务器并热重载文档
-    "docs:build": "vitepress build docs", // 构建静态文档站点
-    "docs:preview": "vitepress preview docs" // 预览已构建的文档站点
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "vitepress": "1.6.3" // 锁定 vitepress 版本以确保一致性
+    "vitepress": "1.6.3"
   },
   "dependencies": {
-    "cnai-api": "file:" // 仅用于开发环境，生产环境中请使用正式发布的包或私有仓库
+    "cnai-api": "file:"
   }
 }
