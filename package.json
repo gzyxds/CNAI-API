@@ -7,7 +7,7 @@
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
-    "vitepress": "^1.0.0-rc.40"
+    "vitepress": "^1.6.3"
   },
   "dependencies": {
     "cnai-api": "file:"

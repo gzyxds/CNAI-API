@@ -12,7 +12,7 @@ hero:
   
   image: 
     src: /logo.svg
-    alt: CNAPI
+    alt: CNAIAPI
     
   actions:
     - theme: brand
