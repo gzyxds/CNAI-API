@@ -11,7 +11,7 @@ hero:
 
   
   image: 
-    src: https://payphp.oss-cn-shenzhen.aliyuncs.com/CNAPI.svg
+    src: /logo.svg
     alt: CNAPI
     
   actions:
