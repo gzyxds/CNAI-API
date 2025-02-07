@@ -1,10 +1,15 @@
 {
-  "devDependencies": {
-    "vitepress": "^1.4.0"
-  },
+  "name": "cnai-api",
+  "version": "1.0.0",
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.40"
+  },
+  "dependencies": {
+    "cnai-api": "file:"
   }
 }
