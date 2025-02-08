@@ -12,6 +12,7 @@
   },
   "scripts": {
     "dev": "vitepress dev",
+    "prebuild": "mkdir -p dist",
     "build": "vitepress build",
     "preview": "vitepress preview"
   },
