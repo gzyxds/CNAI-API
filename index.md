@@ -1,7 +1,7 @@
 ---
 layout: home
 
-title: GoView 说明文档
+title: GoView 文档
 titleTemplate: 低代码数据可视化开发平台
 
 hero:
