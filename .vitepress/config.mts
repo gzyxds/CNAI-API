@@ -7,7 +7,7 @@ const ogTitle = 'GoView'
 const ogUrl = 'https://www.mtruning.club/'
 
 export default defineConfig({
-  title: 'GoView 说明文档',
+  title: 'CNAPI',
   description: '低代码数据可视化开发平台',
   lang: 'zh-CN',
   base: '/',
@@ -52,7 +52,8 @@ export default defineConfig({
       searchParameters: '搜索'
     },
 
-    nav: [
+    nav: [   // 导航栏配置
+      { text: '首页', link: '/guide/start/', activeMatch: '/guide/start/' },
       { text: '指引', link: '/guide/start/', activeMatch: '/guide/start/' },
       { text: '更新日志', link: '/updateLog/', activeMatch: '/updateLog/' },
       { text: '权益 | 商业合作', link: '/rights/', activeMatch: '/rights/' },
@@ -62,11 +63,11 @@ export default defineConfig({
         text: '相关链接',
         items: [
           {
-            text: 'Vue3',
+            text: '艺创AI',
             link: 'https://cn.vuejs.org/'
           },
           {
-            text: 'NaiveUI',
+            text: '优刻云计算',
             link: 'https://www.naiveui.com/zh-CN/dark'
           },
           {
@@ -90,7 +91,7 @@ export default defineConfig({
       { text: '橙单', link: '/chengDan/', activeMatch: '/chengDan/' },
     ],
 
-    sidebar: {
+    sidebar: {   // 侧边栏配置
       '/guide/': [
         {
           text: '引导',
