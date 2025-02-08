@@ -1,17 +1,24 @@
-// https://vitepress.dev/guide/custom-theme
 import { h } from 'vue'
-import type { Theme } from 'vitepress'
-import DefaultTheme from 'vitepress/theme'
-import './style.css'
+import Theme from 'vitepress/theme'
+import HomeSponsors from './components/HomeSponsors.vue'
+import AsideSponsors from './components/AsideSponsors.vue'
+import SvgImage from './components/SvgImage.vue'
+import LayoutBottom from './components/LayoutBottom.vue'
+import SidebarNavBefore from './components/SidebarNavBefore.vue'
+import './styles/vars.css'
+import './custom.css'
 
 export default {
-  extends: DefaultTheme,
-  Layout: () => {
-    return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
+  ...Theme,
+  Layout() {
+    return h(Theme.Layout, null, {
+      'home-features-after': () => h(HomeSponsors),
+      'aside-ads-before': () => h(AsideSponsors),
+      'layout-bottom': () => h(LayoutBottom),
+      'sidebar-nav-before': () => h(SidebarNavBefore)
     })
   },
-  enhanceApp({ app, router, siteData }) {
-    // ...
+  enhanceApp({ app }) {
+    app.component('SvgImage', SvgImage)
   }
-} satisfies Theme
+}

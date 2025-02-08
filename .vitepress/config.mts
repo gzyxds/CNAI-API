@@ -1,313 +1,202 @@
-import { defineConfig } from "vitepress";
-	export default defineConfig({
-  "title": "CNAI-API",
-  "keywords": "CNAIAPI,OpenAI,Openkey,API中转,OpenAI接入,apikey,chatgptapikey,midjourney接口,Stable Diffusion,Suno,Luma,DALL-E,Runway,Kling,Viggle,Ideogram,Flex",
-  "description": "CNAI-API行业领先的AI资源服务提供商，汇集OpenAI, Claude, MidJourney, Suno, Luma ，DALL-E，CLIP，MidJourney，Stable Diffusion 等全球顶级品牌的先进API接口。提供零月费、按需付费的灵活计费模式，让技术爱好者、小型企业、学校和个人用户都能轻松享受高质量的人工智能服务。无论是聊天机器人、绘图机器人还是高效语音转换与精确文字识别，加入CNAI-API，带来的无限可能，探索并集成最前沿的技术到您的产品中，共同推动创新与发展，为客户创造更多价值。",
-  "themeConfig": {
-    "siteTitle": false,
-    "logo": "https://payphp.oss-cn-shenzhen.aliyuncs.com/CNAPI.svg",
-    "outDir": "docs",
-    "lastUpdated": true,
-    "sidebarMenuLabel": "目录",
-    "socialLinks": [
+import { defineConfig } from 'vitepress'
+
+const ogDescription =
+  '低代码数据可视化开发平台, 开源、精美、便捷、规范、交互自然。'
+const ogImage = '/logo-t-y.png'
+const ogTitle = 'GoView'
+const ogUrl = 'https://www.mtruning.club/'
+
+export default defineConfig({
+  title: 'GoView 说明文档',
+  description: '低代码数据可视化开发平台',
+  lang: 'zh-CN',
+  base: '/',
+  outDir: './dist',
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: ogTitle }],
+    ['meta', { property: 'og:image', content: ogImage }],
+    ['meta', { property: 'og:url', content: ogUrl }],
+    ['meta', { property: 'og:description', content: ogDescription }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:site', content: 'GoView' }],
+    ['meta', { name: 'theme-color', content: '#3f8bdb' }],
+    [
+      'script',
       {
-        "icon": "github",
-        "link": "https://github.com/gzyxds/cnapi"
+        src: '',
+        'data-site': '',
+        'data-spa': '',
+        defer: ''
       }
-    ],
-    "editLink": {
-      "pattern": "https://github.com/gzyxds/cnapi",
-      "text": "编辑本页"
+    ]
+  ],
+  themeConfig: {
+    logo: '/logo.svg',
+
+    editLink: {
+      text: '为此页提供修改建议',
+      pattern: 'https://gitee.com/MTrun/go-view-doc'
     },
-    "nav": [
-      {
-        "text": "🖥网站首页",
-        "link": "/"
-      },
-      {
-        "text": "💹控制台",
-        "link": "https://api.cnai.art"
-      },
-      {
-        "text": "🍵AIGC系统",
-        "link": "https://docs.xgphp.cn"
-      },
-      {
-        "text": "💬在线体验",
-        "link": "https://api.cnai.art/playground"
-      },
-      {
-        "text": "🎉️帮助中心",
-        "link": "/api/help"
-      }
+
+    socialLinks: [
+      { icon: 'github', link: 'https://gitee.com/dromara/go-view' }
     ],
-    "sidebar": [
-      {
-        "text": "🖥️帮助中心",
-        collapsed: false, // 是否默认展开
-        "items": [
-          {
-            "text": "✅ 快速接入",
-            "link": "/api/index"
-          },
-          {
-            "text": "😊 服务定价",
-            "link": "/api/shop"
-          },
-          {
-            "text": "😍 获取apiKey",
-            "link": ""
-          },
-          {
-            "text": "😊 常见问题",
-            "link": ""
-          },
-          {
-            "text": "🚀 直接使用",
-            "link": ""
-          },
-          {
-            "text": "🔨 应用部署",
-            "link": ""
-          },
-          {
-            "text": "😊 画图 dall-e-3模型",
-            "link": ""
-          },
-          {
-            "text": "😊 gpt-4-vision-preview 模型",
-            "link": ""
-          },
-          {
-            "text": "😊 GPTs 多模态",
-            "link": ""
-          },
-          {
-            "text": "😊 whisper tts 语音模型",
-            "link": ""
-          },
-          {
-            "text": "😊 Assistants API",
-            "link": ""
-          }
-        ]
-      },
-      {
-        "text": "🎨midjourney",
-        collapsed: false,
-        "items": [
-          {
-            "text": "✅ Midjourney接入",
-            "link": ""
-          },
-          {
-            "text": "😊 任务API",
-            "link": ""
-          },
-          {
-            "text": "😊 应用部署",
-            "link": ""
-          },
-          {
-            "text": "🚀 直接使用",
-            "link": ""
-          }
-        ]
-      },
-      {
-        "text": "📖其他or",
-        collapsed: false,
-        "items": [
-          {
-            "text": "😊 claude-3 ",
-            "link": ""
-          },
-          {
-            "text": "🎧 音乐模型 suno",
-            "link": ""
-          },
-          {
-            "text": "🎬 视频模型 luma",
-            "link": ""
-          },
-          {
-            "text": "🎬 视频模型 runway",
-            "link": ""
-          },
-          {
-            "text": "🎬 视频模型 kling可灵",
-            "link": ""
-          },
-          {
-            "text": "💃🏻 舞蹈模型 viggle",
-            "link": ""
-          },
-          {
-            "text": "🖼 绘图模型 ideogram",
-            "link": ""
-          },
-          {
-            "text": "🖼 绘图模型 flux",
-            "link": ""
-          },
-          {
-            "text": "😊 免费公益接口",
-            "link": ""
-          }
-        ]
-      },
-      {
-        "text": "🍵友情连接",
-        collapsed: false,
-        "items": [
-          {
-            "text": "📫枭格科技",
-            "link": "http://www.xgphp.cn/"
-          },
-          {
-            "text": "☁优刻云",
-            "link": "https://www.cloudcvm.com/"
-          },
-          {
-            "text": "🎉AI创作",
-            "link": "https://comnew.cn/"
-          },
-          {
-            "text": "🎨AIGC系统",
-            "link": "https://docs.xgphp.cn/"
-          },
-          {
-            "text": "👀CodePu",
-            "link": "http://www.codepu.cn/"
-          }
-        ]
-      }
-    ],
-    "footer": {
-      "message": "Released under the CNAPI.cn Public License.",
-      "copyright": "Copyright © 2024-api.cnar.art All Rights Reserved"
+
+    algolia: {
+      appId: '27GQF86TFH',
+      apiKey: '5529275a1f0687fd78babb878f6c54a6',
+      indexName: 'GoView',
+      placeholder: '请输入关键词',
+      searchParameters: '搜索'
     },
-    "prev": "上一篇",
-    "returnToTopLabel": "返回顶部",
-    "outline": "目录",
-    "externalLinkIcon": true,
-    "i18nRouting": false,
-    "search": {
-      "provider": "local",
-      "options": {
-        "appId": "",
-        "apiKey": "",
-        "indexName": "",
-        "locales": {
-          "zh": {
-            "placeholder": "搜索文档",
-            "translations": {
-              "button": {
-                "buttonText": "搜索文档",
-                "buttonAriaLabel": "搜索文档"
-              },
-              "modal": {
-                "searchBox": {
-                  "resetButtonTitle": "清除查询条件",
-                  "resetButtonAriaLabel": "清除查询条件",
-                  "cancelButtonText": "取消",
-                  "cancelButtonAriaLabel": "取消"
-                },
-                "startScreen": {
-                  "recentSearchesTitle": "搜索历史",
-                  "noRecentSearchesText": "没有搜索历史",
-                  "saveRecentSearchButtonTitle": "保存至搜索历史",
-                  "removeRecentSearchButtonTitle": "从搜索历史中移除",
-                  "favoriteSearchesTitle": "收藏",
-                  "removeFavoriteSearchButtonTitle": "从收藏中移除"
-                },
-                "errorScreen": {
-                  "titleText": "无法获取结果",
-                  "helpText": "你可能需要检查你的网络连接"
-                },
-                "footer": {
-                  "selectText": "选择",
-                  "navigateText": "切换",
-                  "closeText": "关闭",
-                  "searchByText": "搜索提供者"
-                },
-                "noResultsScreen": {
-                  "noResultsText": "无法找到相关结果",
-                  "suggestedQueryText": "你可以尝试查询",
-                  "reportMissingResultsText": "你认为该查询应该有结果？",
-                  "reportMissingResultsLinkText": "点击反馈"
-                }
-              }
-            }
+
+    nav: [
+      { text: '指引', link: '/guide/start/', activeMatch: '/guide/start/' },
+      { text: '更新日志', link: '/updateLog/', activeMatch: '/updateLog/' },
+      { text: '权益 | 商业合作', link: '/rights/', activeMatch: '/rights/' },
+      { text: '合作伙伴', link: '/cooperative/', activeMatch: '/cooperative/' },
+      { text: '关于作者 | 赞助', link: '/author/', activeMatch: '/author/' },
+      {
+        text: '相关链接',
+        items: [
+          {
+            text: 'Vue3',
+            link: 'https://cn.vuejs.org/'
           },
-          "en": {
-            "placeholder": "Search docs",
-            "translations": {
-              "button": {
-                "buttonText": "Search docs",
-                "buttonAriaLabel": "Search docs"
-              },
-              "modal": {
-                "searchBox": {
-                  "resetButtonTitle": "Clear query",
-                  "resetButtonAriaLabel": "Clear query",
-                  "cancelButtonText": "Cancel",
-                  "cancelButtonAriaLabel": "Cancel"
-                },
-                "startScreen": {
-                  "recentSearchesTitle": "Recent searches",
-                  "noRecentSearchesText": "No recent searches",
-                  "saveRecentSearchButtonTitle": "Save search",
-                  "removeRecentSearchButtonTitle": "Remove search",
-                  "favoriteSearchesTitle": "Favorites",
-                  "removeFavoriteSearchButtonTitle": "Remove from favorites"
-                },
-                "errorScreen": {
-                  "titleText": "Unable to fetch results",
-                  "helpText": "You may want to check your network connection"
-                },
-                "footer": {
-                  "selectText": "select",
-                  "navigateText": "navigate",
-                  "closeText": "close",
-                  "searchByText": "Search by"
-                },
-                "noResultsScreen": {
-                  "noResultsText": "No results for",
-                  "suggestedQueryText": "You can try searching for",
-                  "reportMissingResultsText": "You think it should have results?",
-                  "reportMissingResultsLinkText": "Click here to report it"
-                }
-              }
-            }
+          {
+            text: 'NaiveUI',
+            link: 'https://www.naiveui.com/zh-CN/dark'
+          },
+          {
+            text: 'Pinia',
+            link: 'https://pinia.vuejs.org/'
+          },
+          {
+            text: 'Vite',
+            link: 'https://cn.vitejs.dev/'
+          },
+          {
+            text: 'TypeScript',
+            link: 'https://www.typescriptlang.org/'
+          },
+          {
+            text: 'ECharts',
+            link: 'https://echarts.apache.org/zh/index.html'
           }
+        ]
+      },
+      { text: '橙单', link: '/chengDan/', activeMatch: '/chengDan/' },
+    ],
+
+    sidebar: {
+      '/guide/': [
+        {
+          text: '引导',
+          items: [
+            {
+              text: '开始',
+              link: '/guide/start/index'
+            },
+            {
+              text: '页面引导',
+              link: '/guide/start/pageGuide'
+            },
+            {
+              text: '设置介绍',
+              link: '/guide/start/globalSetting'
+            },
+            {
+              text: '常见问题',
+              link: '/guide/start/more'
+            }
+          ]
+        },
+        {
+          text: '设计',
+          items: [
+            {
+              text: '目录结构',
+              link: '/guide/design/directory'
+            },
+            {
+              text: '工作空间',
+              link: '/guide/design/canvas'
+            },
+            {
+              text: '预览功能',
+              link: '/guide/design/preview'
+            },
+            {
+              text: '单个图表',
+              link: '/guide/design/charts'
+            },
+            {
+              text: '历史记录',
+              link: '/guide/design/history'
+            }
+          ]
+        },
+        {
+          text: '开发',
+          items: [
+            {
+              text: '新增 ECharts 等复杂图表组件',
+              link: '/guide/develop/addEcharts'
+            },
+            {
+              text: '新增简单自定义图表组件',
+              link: '/guide/develop/addCharts'
+            },
+            {
+              text: '新增联动控制组件',
+              link: '/guide/develop/addInteractCharts'
+            },
+            {
+              text: '修改图表数据处理',
+              link: '/guide/develop/editChartsData'
+            },
+            {
+              text: '修改图表默认颜色',
+              link: '/guide/develop/editGlobalColor'
+            },
+            {
+              text: '修改右键功能',
+              link: '/guide/develop/editRight'
+            },
+            {
+              text: '修改快捷键功能',
+              link: '/guide/develop/editKeyboard'
+            },
+            {
+              text: '修改全局主题与颜色',
+              link: '/guide/develop/editGlobalColor'
+            },
+            {
+              text: '修改 SCSS 亮/暗 主题',
+              link: '/guide/develop/scssColor'
+            },
+            {
+              text: '修改全局语言',
+              link: '/guide/develop/editGlobalLang'
+            }
+          ]
+        },
+        {
+          text: '其它',
+          items: [
+            {
+              text: 'Vue 大屏模板',
+              link: '/guide/screenTemplate/vueScreenTemplate'
+            },
+            {
+              text: 'React 大屏模板',
+              link: '/guide/screenTemplate/reactScreenTemplate'
+            }
+          ]
         }
-      }
-    },
-    "langMenuLabel": "多语言",
-    "darkModeSwitchLabel": "主题",
-    "lightModeSwitchTitle": "切换到浅色模式",
-    "darkModeSwitchTitle": "切换到深色模式",
-    "docFooter": {
-      "prev": "上一页",
-      "next": "下一页"
+      ]
     }
-  },
-  "srcDir": "./",
-  "assetsDir": "static",
-  "sitemap": {
-    "hostname": "https://payphp.cn",
-    "lastmodDateOnly": false
-  },
-  "locales": {},
-  "cacheDir": "./.vitepress/cache",
-  "titleTemplate": "行业领先的AI资源服务提供商, 汇集全球顶级大模型API接口",
-  "lang": "en-US",
-  "base": "/",
-  "outDir": "./.vitepress/dist",
-  "cleanUrls": false,
-  "rewrites": {
-    "packages/pkg-a/src/pkg-a-docs.md": "pkg-a/index.md",
-    "packages/pkg-b/src/pkg-b-docs.md": "pkg-b/index.md"
   }
-});
+})
