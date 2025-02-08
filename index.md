@@ -4,15 +4,20 @@ layout: home
 
  
 hero:     
-  name: "CNAIAPI"
+  name: "CNAPI"
   text: "汇集全球顶级大模型API接口"
   tagline: 无需代理服务器、低成本访问各种AI接口，其中包括OpenAI、Claude、Luma、Suno、Genmin、百度千帆、阿里千问、智谱AI、DeepSpeek、讯飞星火等AI模型
 
 
   
   image: 
+<<<<<<< HEAD
     src: .vitepressBak/images/logo.svg
     alt: CNAPI
+=======
+    src: /logo.svg
+    alt: CNAIAPI
+>>>>>>> 6849bbbf37fa661055b586b479aab9f8509dca7a
     
   actions:
     - theme: brand
