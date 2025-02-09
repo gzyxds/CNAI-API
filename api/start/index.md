@@ -1,6 +1,6 @@
 <p align="center">
   <a
-      href="https://ai.goviewlink.com/saas/"
+      href="https://www.urlnet.cn/"
       target="_blank"
       style="
         display: inline-block;

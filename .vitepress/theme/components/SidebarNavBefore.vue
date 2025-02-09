@@ -2,7 +2,7 @@
   <div>
     <p align="center">
       <a
-        href="https://ai.goviewlink.com/saas/"
+        href="https://www.cnai.art"
         target="_blank"
         style="display: inline-block"
       >

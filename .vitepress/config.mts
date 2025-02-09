@@ -55,8 +55,8 @@ export default defineConfig({
     nav: [   // 导航栏配置
       { text: '首页 🏠', link: '/api/start/', activeMatch: '/api/start/' },
       { text: '🎉️帮助中心', link: '/api/start/', activeMatch: '/api/start/' },
-      { text: '更新日志 🔄', link: '/updateLog/', activeMatch: '/updateLog/' },
-      { text: '权益 | 商业合作 🤝', link: '/rights/', activeMatch: '/rights/' },
+      { text: '💹控制台', link: '/updateLog/', activeMatch: '/updateLog/' },
+      // { text: '权益 | 商业合作 🤝', link: '/rights/', activeMatch: '/rights/' },
       { text: '合作伙伴 🤝', link: '/cooperative/', activeMatch: '/cooperative/' },
       { text: '关于作者 | 赞助 🙏', link: '/author/', activeMatch: '/author/' },
       {
@@ -101,11 +101,11 @@ export default defineConfig({
               link: '/api/start/index'
             },
             {
-              text: '页面引导',
+              text: '✅ 快速接入',
               link: '/api/start/pageapi'
             },
             {
-              text: '设置介绍',
+              text: '😊 服务定价',
               link: '/api/start/globalSetting'
             },
             {
