@@ -53,8 +53,8 @@ export default defineConfig({
     },
 
     nav: [   // 导航栏配置
-      { text: '首页 🏠', link: '/guide/start/', activeMatch: '/guide/start/' },
-      { text: '指引 🚀', link: '/guide/start/', activeMatch: '/guide/start/' },
+      { text: '首页 🏠', link: '/api/start/', activeMatch: '/api/start/' },
+      { text: '🎉️帮助中心', link: '/api/start/', activeMatch: '/api/start/' },
       { text: '更新日志 🔄', link: '/updateLog/', activeMatch: '/updateLog/' },
       { text: '权益 | 商业合作 🤝', link: '/rights/', activeMatch: '/rights/' },
       { text: '合作伙伴 🤝', link: '/cooperative/', activeMatch: '/cooperative/' },
@@ -92,25 +92,25 @@ export default defineConfig({
     ],
 
     sidebar: {   // 侧边栏配置
-      '/guide/': [
+      '/api/': [
         {
           text: '引导',
           items: [
             {
               text: '开始',
-              link: '/guide/start/index'
+              link: '/api/start/index'
             },
             {
               text: '页面引导',
-              link: '/guide/start/pageGuide'
+              link: '/api/start/pageapi'
             },
             {
               text: '设置介绍',
-              link: '/guide/start/globalSetting'
+              link: '/api/start/globalSetting'
             },
             {
               text: '常见问题',
-              link: '/guide/start/more'
+              link: '/api/start/more'
             }
           ]
         },
@@ -119,23 +119,23 @@ export default defineConfig({
           items: [
             {
               text: '目录结构',
-              link: '/guide/design/directory'
+              link: '/api/design/directory'
             },
             {
               text: '工作空间',
-              link: '/guide/design/canvas'
+              link: '/api/design/canvas'
             },
             {
               text: '预览功能',
-              link: '/guide/design/preview'
+              link: '/api/design/preview'
             },
             {
               text: '单个图表',
-              link: '/guide/design/charts'
+              link: '/api/design/charts'
             },
             {
               text: '历史记录',
-              link: '/guide/design/history'
+              link: '/api/design/history'
             }
           ]
         },
@@ -144,43 +144,43 @@ export default defineConfig({
           items: [
             {
               text: '新增 ECharts 等复杂图表组件',
-              link: '/guide/develop/addEcharts'
+              link: '/api/develop/addEcharts'
             },
             {
               text: '新增简单自定义图表组件',
-              link: '/guide/develop/addCharts'
+              link: '/api/develop/addCharts'
             },
             {
               text: '新增联动控制组件',
-              link: '/guide/develop/addInteractCharts'
+              link: '/api/develop/addInteractCharts'
             },
             {
               text: '修改图表数据处理',
-              link: '/guide/develop/editChartsData'
+              link: '/api/develop/editChartsData'
             },
             {
               text: '修改图表默认颜色',
-              link: '/guide/develop/editGlobalColor'
+              link: '/api/develop/editGlobalColor'
             },
             {
               text: '修改右键功能',
-              link: '/guide/develop/editRight'
+              link: '/api/develop/editRight'
             },
             {
               text: '修改快捷键功能',
-              link: '/guide/develop/editKeyboard'
+              link: '/api/develop/editKeyboard'
             },
             {
               text: '修改全局主题与颜色',
-              link: '/guide/develop/editGlobalColor'
+              link: '/api/develop/editGlobalColor'
             },
             {
               text: '修改 SCSS 亮/暗 主题',
-              link: '/guide/develop/scssColor'
+              link: '/api/develop/scssColor'
             },
             {
               text: '修改全局语言',
-              link: '/guide/develop/editGlobalLang'
+              link: '/api/develop/editGlobalLang'
             }
           ]
         },
@@ -189,11 +189,11 @@ export default defineConfig({
           items: [
             {
               text: 'Vue 大屏模板',
-              link: '/guide/screenTemplate/vueScreenTemplate'
+              link: '/api/screenTemplate/vueScreenTemplate'
             },
             {
               text: 'React 大屏模板',
-              link: '/guide/screenTemplate/reactScreenTemplate'
+              link: '/api/screenTemplate/reactScreenTemplate'
             }
           ]
         }

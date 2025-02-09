@@ -22,7 +22,7 @@ const dataJson = {
   // 顶级赞数商
   top: [
     {
-      name: '驰骋流程+表单+低代码',
+      name: '艺创AIGC系统源码',
       logo: `/sponsor/ccflow.png`,
       img: `/sponsor/ccflow-banner.png`,
       url: 'http://www.ccflow.org/?from=goviewHome',
@@ -30,7 +30,7 @@ const dataJson = {
       message: '流程引擎、表单引擎低代码开发平台'
     },
     {
-      name: 'FastBee物联网平台',
+      name: '优刻云计算',
       logo: `/sponsor/fb.gif`,
       img: `/sponsor/fb-banner.gif`,
       url: 'https://fastbee.cn/',
@@ -38,7 +38,7 @@ const dataJson = {
       message: 'FastBee简单易用的开源物联网平台'
     },
     // {
-    //   name: '系统数据集成中台',
+    //   name: '172号卡平台',
     //   logo: `/sponsor/qyy.png`,
     //   img: `/sponsor/qyy-banner.png`,
     //   url: 'https://www.qeasy.cloud/',
@@ -46,8 +46,8 @@ const dataJson = {
     //   message: '轻松、易用、快速、稳定、安全的异构系统数据集成平台'
     // },
     {
-      name: '在线知识库管理系统',
-      subName: '私有化部署的知识库',
+      name: '码支付系统',
+      subName: '码支付系统',
       class: 'ZyplayerDoc',
       logo: `/sponsor/zyplayer.png`,
       img: `/sponsor/zyplayer-banner.png`,
@@ -65,7 +65,7 @@ const dataJson = {
     // },
     {
       // 明道云
-      name: 'HAP超级应用平台',
+      name: '172号卡平台',
       class: 'mdy',
       logo: `/sponsor/mdy.png`,
       img: `/sponsor/mdy-banner.png`,
