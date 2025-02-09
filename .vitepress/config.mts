@@ -3,11 +3,11 @@ import { defineConfig } from 'vitepress'
 const ogDescription =
   '低代码数据可视化开发平台, 开源、精美、便捷、规范、交互自然。'
 const ogImage = '/logo-t-y.png'
-const ogTitle = 'GoView'
+const ogTitle = 'OpenApi'
 const ogUrl = 'https://www.mtruning.club/'
 
 export default defineConfig({
-  title: 'CNAPI',
+  title: 'OpenApi', // 独立设置网站标题
   description: '低代码数据可视化开发平台',
   lang: 'zh-CN',
   base: '/',
@@ -53,42 +53,42 @@ export default defineConfig({
     },
 
     nav: [   // 导航栏配置
-      { text: '首页', link: '/guide/start/', activeMatch: '/guide/start/' },
-      { text: '指引', link: '/guide/start/', activeMatch: '/guide/start/' },
-      { text: '更新日志', link: '/updateLog/', activeMatch: '/updateLog/' },
-      { text: '权益 | 商业合作', link: '/rights/', activeMatch: '/rights/' },
-      { text: '合作伙伴', link: '/cooperative/', activeMatch: '/cooperative/' },
-      { text: '关于作者 | 赞助', link: '/author/', activeMatch: '/author/' },
+      { text: '首页 🏠', link: '/guide/start/', activeMatch: '/guide/start/' },
+      { text: '指引 🚀', link: '/guide/start/', activeMatch: '/guide/start/' },
+      { text: '更新日志 🔄', link: '/updateLog/', activeMatch: '/updateLog/' },
+      { text: '权益 | 商业合作 🤝', link: '/rights/', activeMatch: '/rights/' },
+      { text: '合作伙伴 🤝', link: '/cooperative/', activeMatch: '/cooperative/' },
+      { text: '关于作者 | 赞助 🙏', link: '/author/', activeMatch: '/author/' },
       {
-        text: '相关链接',
+        text: '相关链接 🌐',
         items: [
           {
-            text: '艺创AI',
+            text: '艺创AI 🤖',
             link: 'https://cn.vuejs.org/'
           },
           {
-            text: '优刻云计算',
+            text: '优刻云计算 ☁️',
             link: 'https://www.naiveui.com/zh-CN/dark'
           },
           {
-            text: 'Pinia',
+            text: 'Pinia 🚀',
             link: 'https://pinia.vuejs.org/'
           },
           {
-            text: 'Vite',
+            text: 'Vite ⚡️',
             link: 'https://cn.vitejs.dev/'
           },
           {
-            text: 'TypeScript',
+            text: 'TypeScript 💻',
             link: 'https://www.typescriptlang.org/'
           },
           {
-            text: 'ECharts',
+            text: 'ECharts 📈',
             link: 'https://echarts.apache.org/zh/index.html'
           }
         ]
       },
-      { text: '橙单', link: '/chengDan/', activeMatch: '/chengDan/' },
+      { text: '橙单 🍊', link: '/chengDan/', activeMatch: '/chengDan/' },
     ],
 
     sidebar: {   // 侧边栏配置
